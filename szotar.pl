@@ -179,7 +179,6 @@ my %szotar = (
         'együttjáró' => 'együtt járó',
         'ehelyutt' => 'e helyutt',
         'ehelyütt' => 'e helyütt',
-        'elen' => 'ellen',
         'elenere' => 'ellenere',
         'elenére' => 'ellenére',
         'elenfel' => 'ellenfel',
