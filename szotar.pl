@@ -921,7 +921,7 @@ my %szotar = (
         'Ph.D' => 'PhD',
         'pikkej' => 'pikkely',
         'ping-pong' => 'pingpong',
-        'pld\.               pl.',
+        'pld\.' => 'pl.',
         'plussz' => 'plusz',
         'portfolió' => 'portfólió',
         'pósta' => 'posta',
