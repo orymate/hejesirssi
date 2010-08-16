@@ -9,7 +9,7 @@ my $lastreload = 0;
 
 sub reload {
     %szotar = ();
-    system("cd ~/hejesirssi; git pull");
+    system("cd ~/hejesirssi; git pull >/dev/null 2>&1");
     open my $in, '<', '/home/web/hejesirssi/lista.dat' or print "Can't read file: $!";
     my $i = 0;
     while (<$in>) {
