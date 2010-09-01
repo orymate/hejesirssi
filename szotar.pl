@@ -40,7 +40,7 @@ sub event_pub {
 	foreach my $key (keys %szotar) {
 		if($msg =~ m/(^|\s)$key($|\s|[,:;?!])/) {
 			if ($text eq "") {
-				$text = "$nick: ${szotar{$key}}";
+				$text = "$nick: [helyesen] ${szotar{$key}}";
 			}
 			else {
 				$text .= ", ${szotar{$key}}";
